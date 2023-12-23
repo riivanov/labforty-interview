@@ -1,4 +1,4 @@
-namespace radoslav_ivanov_labforty_interview;
+namespace API;
 
 public class WeatherForecast
 {

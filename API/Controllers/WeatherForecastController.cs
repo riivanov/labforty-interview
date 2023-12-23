@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace radoslav_ivanov_labforty_interview.Controllers;
+namespace API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
