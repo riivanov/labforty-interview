@@ -1,0 +1,4 @@
+- install postgres
+  - `sudo -u postgres initdb -D /var/lib/postgres/data` # initialize the DB
+  - `sudo -u postgres createuser -P -S -R -d username` # use `password` as password
+- run migrations (to create initial DB)
