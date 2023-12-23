@@ -1,0 +1,6 @@
+@radoslav_ivanov_labforty_interview_HostAddress = http://localhost:5114
+
+GET {{radoslav_ivanov_labforty_interview_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
