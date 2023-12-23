@@ -1,7 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace API.Data.Entities;
 
 public class Order
 {
+  [Key]
   public int Id { get; set; }
   public int CustomerId { get; set; }
   public string ProductId { get; set; }
