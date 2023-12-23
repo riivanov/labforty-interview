@@ -3,14 +3,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Data;
 
-public class DbContext : Microsoft.EntityFrameworkCore.DbContext
+public class APIDbContext : DbContext
 {
-    public DbContext(DbContextOptions<DbContext> options)
+    public APIDbContext(DbContextOptions<APIDbContext> options)
         : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.ApplyConfigurationsFromAssembly(typeof(DbContext).Assembly);
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(APIDbContext).Assembly);
     }
 
     public DbSet<Customer> Customers { get; set; }
