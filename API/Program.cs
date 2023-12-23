@@ -1,3 +1,4 @@
+using API.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<DbContext>(
+builder.Services.AddDbContext<APIDbContext>(
     option => option.UseNpgsql(builder.Configuration.GetConnectionString("PostgresConnection"))
 );
 
