@@ -1,0 +1,27 @@
+{
+  "id": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "age": 0,
+  "orders": [
+    {
+      "id": 0,
+      "customerId": 0,
+      "productId": "1",
+      "orderDate": "2023-12-24T19:08:56.979Z",
+      "quantity": 0,
+      "total": 0,
+      "customer": {
+        "orders": [],
+        "firstName": "string",
+        "lastName": "string"
+      },
+      "product": {
+        "id": "2",
+        "name": "string",
+        "price": 0,
+        "orders": []
+      }
+    }
+  ]
+}
