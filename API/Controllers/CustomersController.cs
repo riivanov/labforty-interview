@@ -1,9 +1,11 @@
 using API.Data;
 using API.Data.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class CustomersController : ControllerBase
