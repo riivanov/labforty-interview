@@ -1,5 +1,13 @@
-- `cd API`
+Given the timeframe, this README is incomplete, no testing has been done (especially on Windows).
+I assume you have postgres installed
 
+```
+cd labforty-interview
+git clone https://github.com/riivanov/labforty-interview.git
+git checkout v0.0.1
+```
+
+- `cd API`
 - install postgres
 - configure postgres
   - `sudo -u postgres initdb -D /var/lib/postgres/data` # initialize the DB
